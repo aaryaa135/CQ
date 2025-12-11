@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - CareerQuest</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎮</text></svg>">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="careers.css">
+    <link rel="stylesheet" href="chatbot_roadmap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="nav-logo">🎮</span>
+                <span class="nav-title">CareerQuest</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="chat.html" class="nav-link">AI Advisor</a></li>
+                <li><a href="roadmaps.html" class="nav-link">Roadmaps</a></li>
+                <li><a href="profile.html" class="nav-link active">Profile</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Profile Hero Section -->
+    <section class="career-hero" id="profileHero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="career-icon" id="profileIcon">👤</div>
+                <h1 id="profileName">Guest User</h1>
+                <p id="profileDescription">Welcome to your CareerQuest profile. Here you can view and manage your saved career roadmaps.</p>
+                <div class="hero-badges">
+                    <span class="badge badge-difficulty">Level: 1</span>
+                    <span class="badge badge-duration">XP: 0</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Saved Roadmaps -->
+    <section class="learning-roadmap">
+        <div class="container">
+            <div class="section-header">
+                <h2>Your Saved Roadmaps</h2>
+                <p>Roadmaps you've generated with the AI Advisor are listed below. Preview or delete as needed.</p>
+            </div>
+
+            <div class="roadmap-display">
+                <h2 id="roadmapTitle">Saved Roadmaps</h2>
+                <div class="steps-container" id="stepsContainer">
+                    <!-- Roadmap items (titles only) will be dynamically inserted here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="chatbot_roadmap.js"></script>
+</body>
+</html>

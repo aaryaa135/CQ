@@ -1,0 +1,28 @@
+{
+  "Data Scientist Career Roadmap": [
+    {
+      "advice": "Learn the basics of statistics and mathematics, including probability, linear algebra, calculus, and mathematical modeling. Start with online courses such as Khan Academy's Mathematics and Stanford University's Probability and Statistics.",
+      "title": "Step 1"
+    },
+    {
+      "advice": "Familiarize yourself with popular data science tools and technologies like Python, R, SQL, pandas, NumPy, scikit-learn, TensorFlow, Keras, and PyTorch. Practice with projects on Kaggle or GitHub.",
+      "title": "Step 2"
+    },
+    {
+      "advice": "Develop expertise in machine learning algorithms and deep learning techniques by taking courses like Andrew Ng's Machine Learning and Stanford University's Deep Learning Specialization.",
+      "title": "Step 3"
+    },
+    {
+      "advice": "Learn data visualization tools like Tableau, Power BI, or D3.js to effectively communicate insights to stakeholders. Practice with real-world datasets on Kaggle or UCI Machine Learning Repository.",
+      "title": "Step 4"
+    },
+    {
+      "advice": "Stay up-to-date with industry trends by attending conferences, meetups, and workshops. Read blogs and articles from top data science publications like KDnuggets, Data Science Central, and Towards Data Science.",
+      "title": "Step 5"
+    },
+    {
+      "advice": "Build a strong portfolio showcasing your projects and achievements in data science. Participate in competitions like Kaggle's Data Science Bowl or Google Analytics Competition to demonstrate your skills.",
+      "title": "Step 6"
+    }
+  ]
+}

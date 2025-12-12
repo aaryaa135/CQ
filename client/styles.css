@@ -19,6 +19,9 @@
   --card-foreground: #e6eef8;
   --secondary: #0f1724;
   --secondary-foreground: #9ca3af;
+
+  /* NAV HEIGHT (fallback default). JS can sync this dynamically. */
+  --nav-height: 72px;
 }
 
 body {
@@ -27,6 +30,7 @@ body {
   color: var(--foreground);
   background: var(--background);
   overflow-x: hidden;
+  padding-top: var(--nav-height); /* ensures content sits below fixed navbar */
 }
 
 .container {
@@ -66,6 +70,8 @@ body {
   padding: 1rem 2rem;
   max-width: 1200px;
   margin: 0 auto;
+  height: var(--nav-height); /* ensure nav height matches CSS var */
+  line-height: 1;
 }
 
 .nav-brand {
@@ -158,6 +164,8 @@ body {
   object-fit: cover;
   z-index: -2;
   filter: none;
+  /* prevent video from extending under the fixed navbar visually */
+  max-height: calc(100vh - var(--nav-height));
 }
 
 /* subtle overlay over video - darker for better text visibility */
@@ -584,7 +592,7 @@ body {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 70px;
+    top: var(--nav-height); /* use variable so mobile menu positions below fixed nav */
     flex-direction: column;
     background-color: var(--card);
     width: 100%;

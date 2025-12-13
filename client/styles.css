@@ -21,12 +21,12 @@
   --secondary-foreground: #9ca3af;
 
   /* NAV HEIGHT (fallback default). JS can sync this dynamically. */
-  --nav-height: 72px;
+  --nav-height: 60px;
 }
 
 body {
   font-family: "Inter", sans-serif;
-  line-height: 1.6;
+  line-height: 2;
   color: var(--foreground);
   background: var(--background);
   overflow-x: hidden;
@@ -42,9 +42,9 @@ body {
 /* Navigation */
 .navbar {
   position: fixed;
-  top: 0;
+  top: 0px;
   width: 100%;
-  background: rgba(11, 16, 32, 0.72);
+  background: rgba(11, 16, 32, 0.06);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border);
   z-index: 1000;

@@ -1,4 +1,4 @@
-/* Reset and Base Styles */
+body/* Reset and Base Styles */
 * {
   margin: 0;
   padding: 0;
@@ -26,7 +26,7 @@
 
 body {
   font-family: "Inter", sans-serif;
-  line-height: 2;
+  line-height: 1.6;
   color: var(--foreground);
   background: var(--background);
   overflow-x: hidden;
@@ -67,7 +67,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 0 2rem;
   max-width: 1200px;
   margin: 0 auto;
   height: var(--nav-height); /* ensure nav height matches CSS var */
@@ -208,6 +208,7 @@ body {
 
 .hero-description {
   font-size: 1.25rem;
+  line-height: 1.7;
   color: #ffffff;
   margin-bottom: 2rem;
   max-width: 600px;
@@ -354,6 +355,7 @@ body {
 .feature-card {
   background: var(--card);
   padding: 2rem;
+  line-height: 1.7;
   border-radius: 1rem;
   border: 1px solid var(--border);
   transition: all 0.3s ease;
@@ -503,7 +505,7 @@ body {
 .testimonial-content {
   color: var(--muted-foreground);
   font-style: italic;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 /* CTA Section */
